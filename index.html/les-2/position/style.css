@@ -1,0 +1,34 @@
+/*.pos-1 {
+  height: 400px;
+  widows: 400px;
+  background-color: #aabbcc;
+  position: relative;
+  bottom: 40px;
+  left: 50px;
+}
+.red {
+  background-color: red;
+  height: 50px;
+}
+body {
+  margin: 0;
+}
+.green {
+  background-color: green;
+  height: 250px;
+}
+*/
+body {
+}
+
+.block {
+  height: 200px;
+  width: 200px;
+  background-color: indigo;
+  margin-left: 100px;
+}
+.bleue {
+  height: 30px;
+  width: 20px;
+  background-color: blue;
+}
