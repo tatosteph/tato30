@@ -1,0 +1,31 @@
+.class-1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.class-2 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.class-3 {
+  background: green;
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+}
+.class-4 {
+  background: grey;
+  width: 400px;
+  border-bottom: 5px solid green;
+  padding: 10px;
+}
+.class-5 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+.class-5::first-letter {
+  text-decoration: none;
+  color: green;
+}
