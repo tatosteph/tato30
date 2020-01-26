@@ -1,4 +1,15 @@
-.block {
-  height: 25px;
-  width: 75px;
+header {
+  height: 150px;
+  width: 100%;
+  background-color: coral;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  float: left;
+}
+.clear {
+  clear: both;
 }
