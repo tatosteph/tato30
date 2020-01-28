@@ -1,34 +1,77 @@
-/*.pos-1 {
-  height: 400px;
-  widows: 400px;
-  background-color: #aabbcc;
-  position: relative;
-  bottom: 40px;
-  left: 50px;
-}
-.red {
-  background-color: red;
-  height: 50px;
-}
 body {
   margin: 0;
 }
-.green {
-  background-color: green;
-  height: 250px;
+.block1 {
+  position: relative;
+  height: 300px;
+  background-color: #ff3300;
 }
-*/
-body {
-}
-
 .block {
-  height: 200px;
+  background-color: #0066ff;
+  position: relative;
   width: 200px;
-  background-color: indigo;
+  height: 200px;
   margin-left: 100px;
 }
-.bleue {
-  height: 30px;
-  width: 20px;
-  background-color: blue;
+
+.block2 {
+  background-color: #66ff66;
+  height: 300px;
+  position: relative;
+}
+.block3 {
+  background-color: #ff6600;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+}
+.class1 {
+  background-color: darkslateblue;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.class2 {
+  background-color: darkslateblue;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.class2 {
+  background-color: darkslateblue;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.class3 {
+  background-color: darkslateblue;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.class4 {
+  background-color: darkslateblue;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.class5 {
+  background-color: darkslateblue;
+  height: 50px;
+  width: 50px;
+  bottom: 50%;
+  right: 50%;
+  position: absolute;
 }
