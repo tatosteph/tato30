@@ -1,31 +1,47 @@
-.container {
-  width: 700px;
-  height: 700px;
-  margin: auto;
+html {
+  height: 100%;
+  width: 100%;
 }
-
-.top {
-  width: 500px;
-  height: 200px;
-  background-color: seagreen;
+body {
+  height: 100%;
+  width: 100%;
 }
-.right {
-  width: 200px;
-  height: 500px;
-  background-color: darkgoldenrod;
+header {
+  height: 50px;
+  width: auto;
+  background-color: brown;
+  overflow: auto;
+  color: white;
+}
+header nav {
   float: right;
+  padding-left: 15px;
+  margin-top: 15px;
+  color: white;
 }
 
-.left {
-  width: 200px;
-  height: 500px;
-  background-color: red;
+aside {
+  width: 100px;
+  height: 100%;
+  background-color: gray;
   float: left;
 }
-
-.bottom {
-  width: 500px;
-  height: 200px;
-  background-color: purple;
+main {
   float: right;
+  margin-top: 50px;
+}
+.image {
+  float: left;
+}
+aside nav {
+  text-align: center;
+  padding-top: 10px;
+}
+.logo {
+  padding: 15px;
+  top: 15px;
+  float: left;
+}
+main p {
+  padding: 30px;
 }
