@@ -45,7 +45,7 @@ header {
 
 .nav {
   display: flex;
-  margin-left: 50%;
+  margin-left: 99%;
 }
 
 .nav-item a {
@@ -187,4 +187,21 @@ header {
 }
 .menu {
   display: flex;
+}
+.side {
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  margin-left: 50px;
+}
+.column {
+  height: 200px;
+  width: 830px;
+  background-color: white;
+  margin-left: 50px;
+}
+section {
+  display: flex;
+  align-content: center;
+  margin: 25px 200px;
 }
