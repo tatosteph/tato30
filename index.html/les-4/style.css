@@ -1,24 +1,31 @@
 * {
   box-sizing: border-box;
 }
+html {
+  height: 100%;
+  margin: 0px;
+}
 
 body {
-  margin: 0px;
   font-family: sans-serif;
   font-family: sans-serif;
   background-color: #e0e0eb;
   font-weight: 400px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
 }
 
 header {
   background-color: #3298dc;
   color: white;
   height: 500px;
+  margin: 0px;
 }
 
 .top-header {
   width: 1000px;
-  margin: 0px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +45,7 @@ header {
 
 .nav {
   display: flex;
-  margin-left: 60%;
+  margin-left: 50%;
 }
 
 .nav-item a {
@@ -56,7 +63,6 @@ header {
   margin: auto;
   text-align: center;
   margin-top: 150px;
-
   padding-top: 30px;
 }
 
@@ -64,7 +70,7 @@ header {
   height: 60px;
   background-color: white;
   text-align: center;
-  padding: 2px;
+  padding: 25px;
 }
 
 .container1 img {
@@ -78,16 +84,18 @@ header {
   display: flex;
   justify-content: space-between;
   justify-content: space-around;
+  align-self: center;
+  margin: 0px 200px;
 }
 .img {
   background-color: #fff;
   box-sizing: border-box;
   justify-content: space-between;
   border: solid 1px white;
-  margin: 15px 10px;
+  margin: 15px 25px 0px;
   padding-top: 5px;
   height: 400px;
-  width: 350px;
+  width: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -103,5 +111,80 @@ header {
   margin-top: -50px;
 }
 .container1 h4 {
-  font-size: 1.4em;
+  font-size: 1;
+  text-align: center;
+}
+.text {
+  height: 250px;
+  padding-top: 30px;
+}
+.text h1 {
+  text-align: center;
+  font-size: 2em;
+}
+.text p {
+  text-align: center;
+  font-size: 1.3em;
+  padding-top: 15px;
+}
+.container2 {
+  display: flex;
+  align-content: space-around;
+  align-content: space-between;
+  margin: 0px 200px;
+}
+.texte1 {
+  height: 220px;
+  width: 450px;
+  background-color: #fff;
+  border: solid 1px white;
+  margin-left: 50px;
+  padding: 10px;
+}
+.top {
+  height: 200px;
+  width: 400px;
+  background-color: white;
+}
+.Vertical {
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.Middle {
+  height: 420px;
+  width: 400px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.Wide {
+  height: 300px;
+  width: 830px;
+  background-color: white;
+  margin-top: 15px;
+}
+
+.Tall {
+  width: 800px;
+  height: 750px;
+  background-color: white;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container3 {
+  display: flex;
+  margin: 30px 200px 0px 250px;
+  align-content: space-between;
+  align-content: space-around;
+}
+.menu {
+  display: flex;
 }
